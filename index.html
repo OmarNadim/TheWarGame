@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="header">
+            <button id="new-deck-btn">Begin the Game:<br>New Deck</button>
+            <p id="remaining"></p>
+        </div>
+        <h1 id="result">♠️ War Game ♣️</h1>
+        <h2 id="computer-score">Computer Score:</h2>
+        <div id="cards" class="cards">
+            <div id="three-cards-comp">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="card-comp" class="card-slot"></div>
+            <div id="card-mine" class="card-slot"></div>
+            <div id="three-cards-mine">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <h2 id="my-score">My Score:</h2>
+        <button id="draw-cards-btn" class="draw">Draw</button>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/table.png");
+    height: 100vh;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+button{
+    background-color: yellow;
+    border: none;
+}
+
+#new-deck-btn{
+    align-self: flex-start;
+    padding: 5px 20px;
+}
+
+.header{
+    display: flex;
+    align-self: flex-start;
+}
+
+p{
+    margin-left: 10px;
+}
+
+.draw{
+    padding: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: stretch;
+}
+
+.draw:disabled{
+    cursor: not-allowed;
+}
+
+.card-slot{
+    border: 1px solid black;
+    border-radius: 5px;
+    height:120px;
+    width: calc(120px*5/7);
+    margin-top: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three-cards{
+    display: flex;
+}
+
+.three-cards > div{
+    border: 1px solid black;
+    border-radius: 5px;
+    height:120px;
+    width: calc(120px*5/7);
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+img.card{
+    width: 100%;
+}
+
+#result{
+    margin-bottom: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+#computer-score{
+    margin-top: 0
+}
+
